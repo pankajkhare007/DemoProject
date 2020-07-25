@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="example suite 1" verbose="1" >
+
+<listeners>
+		<!--  <listener class-name="retryExecution.RetryListener" />-->
+		<listener class-name="retryExecution.TestListener" />
+	</listeners>
+  <test name="Regression suite 1" >
+    <classes>
+      <class name="retryExecution.TestNGExampleTests" />
+   </classes>
+ </test>
+</suite>

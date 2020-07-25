@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Log Suite Example" verbose="1">
+	<listeners>
+		<listener class-name="ByListnerInterface.ListenerClass" />
+	</listeners>
+
+	<test name="TestNG logs sample" preserve-order="true">
+		<classes>
+			<class name="ByListnerInterface.ListenerTestClass">
+				<methods>
+					<include name="testMethod" />
+					
+				</methods>
+			</class>
+		</classes>
+	</test>
+	</suite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sample Suite" verbose="1" >
+ 
+  <test name="Unit Level Test" >
+    <classes>
+      <class name="multipleTest.entry.AddTestCase" />
+        <class name="multipleTest.entry.EditTestCase" />
+   </classes>
+  </test>
+  
+   <test name="Regression Test" >
+    <classes>
+     <class name="multipleTest.record.AddUserTestCase" />
+        <class name="multipleTest.record.DeleteUserTestCase" />
+   </classes>
+  </test>
+</suite>
